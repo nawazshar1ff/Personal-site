@@ -46,13 +46,13 @@ p{
 
 }
 a{
-    color: #152D35;
+    color: #D4ECDD;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 a:hover{
-    color: #345B63;
+    color: #1C3879;
 }
 
 .top-container{
@@ -64,7 +64,7 @@ a:hover{
     background-color: #D4ECDD;
 }
 .bottom-container{
-    background-color: #D4ECDD;
+    background-color: #345B63;
     padding: 50px 0 20px;
 }
 
@@ -110,7 +110,7 @@ a:hover{
     margin: auto;
   }
   .copyright{
-    color: #1C3879;
+    color: #D4ECDD;
     font-size: 1.3rem;
     padding: 15px 0;
   }
