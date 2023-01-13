@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+
+}
+
+h1{
+    padding: 5%;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    color: #F2F2F2;
+}
+h1:hover{
+    background: linear-gradient(to right, #5CB8E4 0%, #8758FF  100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+img{
+    float: right;
+    width: 35%;
+}
+
+.infocontainer{
+    padding: 2%;
+}
+
+
+
+h2{
+    color: #5CB8E4;
+    margin-left: 70px;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+}
+.resume{
+    color: #5CB8E4;
+    margin-left: 75px;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+}
+.resume1{
+    color: #5CB8E4;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+}
+
+.resume1:hover{
+    color: #8758FF;
+    text-decoration: underline;
+}
+
+p{
+    color: #F2F2F2;
+    margin-left: 70px;
+    font-size: 35px;
+    font-family: 'Caveat', cursive;
+
+}
+
+li,a{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    color:#F2F2F2   ;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header .nav_links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    position: relative;
+    margin-right: auto;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+    color: #8758FF;
+    
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links  li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links  li  a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #8758FF;
+}
+
+.protitle{
+    text-align: center;
+    padding: 0%;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    width: 400px;
+    margin: 80px;
+    border-radius: 10px;
+}
+.cardimg{
+    height: 200px;
+    margin-bottom: 0px;
+    background-size: cover;
+}
+.card1{
+    background-image: url(/Images/portfolio.jpg);
+}
+.card2{
+    background-image: url(/Images/PythonProject.png);
+    border-radius: 10px;
+}
+.proh{
+    margin-left: 0px;
+    text-align: center;
+}
+.prop{
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.card a{
+    background-color: #8758FF;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 100px;
+    border-radius: 30px;
+    font: 100px;
+}
+
+body{
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-height: 100vh;
+    background-color: #181818 ;
+
+}
+
+footer{
+    position:relative;
+    width: 100%;
+    background-color:  #3586ff;
+    min-height: 100px;
+    padding: 20px 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .socials{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+}
+
+footer .socials li{
+    list-style: none;
+}
+
+footer .socials li a{
+    font-size: 1em;
+    color: #F2F2F2;
+    margin: 10px 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .socials li a:hover{
+    transform: translateY(-10px);
+}
+
+footer p{
+    text-align:center;
+    font-size: 1.5em;
+    margin-left: 0%;
+}
+
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background:  url(/Images/wave.png);
+    background-size: 1000px 100px;
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_2 4s linear infinite;
+}
+
+@keyframes animateWave {
+        0%{
+            background-position-x: 1000px;
+        }
+        100%{
+            background-position-x: 0px;
+        }
+}
+@keyframes animateWave_2 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
