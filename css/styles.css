@@ -134,10 +134,10 @@ header .nav_links{
     background-size: cover;
 }
 .card1{
-    background-image: url(/Images/portfolio.jpg);
+    background-image: url(/Personal-site/Images/portfolio.jpg);
 }
 .card2{
-    background-image: url(/Images/dicegame.jpg);
+    background-image: url(/Personal-site/Images/dicegame.jpg);
     border-radius: 10px;
 }
 .proh{
@@ -215,7 +215,7 @@ footer .wave{
     left: 0px;
     width: 100%;
     height: 100px;
-    background:  url(/Images/wave.png);
+    background:  url(/Personal-site/Images/wave.png);
     background-size: 1000px 100px;
 }
 
